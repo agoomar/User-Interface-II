@@ -1,1 +1,115 @@
-/* Add CSS styling here */
+* {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 12px 30px;
+}
+
+nav a:hover{
+    color:#eb3a45;
+    background:white;
+  }
+
+.section1 {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.image_left {
+    width: 100%;
+}
+
+.big_img {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.word_right {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button2 {
+    text-decoration: none;
+    padding: 15px 33px;
+    font-family: sans-serif;
+}
+
+.button2:hover{
+    color:#eb3a45;
+    background:black;
+  }
+
+.section2 {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Projects {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 190px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px 33px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.button3 {
+    text-decoration: none;
+    padding: 12px 30px;
+    color: white;
+    font-family: sans-serif;
+}
